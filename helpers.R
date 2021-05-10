@@ -27,7 +27,8 @@ get_case_text <- function(x,y) {
   
   justice <- paste("Justice", str_split(y,",")[[1]][1])
   
-  text <- rawToChar(GET(link,add_headers(Authorization="Token 447b812d4bf02d3a4ed8f66f768c904ee0cd8f3e"))$content)
+  # API key removed
+  text <- rawToChar(GET(link,add_headers(Authorization="Token XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"))$content)
   
   Encoding(text) <- "UTF-8"
   
