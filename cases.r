@@ -12,7 +12,6 @@ require(stargazer)
 ### Data cleaning and reduction
 
 # Get helpers
-setwd("C:/Users/Taran Samarth/Desktop/plsc476")
 source("helpers.R")
 
 # Pull databases and merge
